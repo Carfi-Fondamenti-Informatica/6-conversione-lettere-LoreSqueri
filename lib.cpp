@@ -5,10 +5,10 @@ bool conversione (char &a) {
         t=true;
         if (a>=65 and a<=90){
             a=a+32;
-            return &a;
+            return a;
         } else {
             a=a-32;
-            return &a;
+            return a;
         }
     }else{
         t=false;
